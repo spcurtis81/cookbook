@@ -1,5 +1,5 @@
 
-# Defining a function
+# Defining a function.
 
 def func():
     print("This is an action within a function")
