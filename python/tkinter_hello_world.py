@@ -8,7 +8,7 @@ def main():
 
     root = Tk()  # Creates new top level widget and assigns to var 'root'
     Label(root,
-          text="Hello, Tkinter!").pack()  # Creates a label in the 'root' widget and uses the pack method to add it.
+          text="Hello, Ste!").pack()  # Creates a label in the 'root' widget and uses the pack method to add it.
     root.mainloop()
 
 
