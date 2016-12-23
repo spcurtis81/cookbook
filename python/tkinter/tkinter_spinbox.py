@@ -8,7 +8,7 @@ from tkinter import *
 root = Tk()
 
 year = StringVar()
-Spinbox(root, from_=1980 to=2020, textvariable=year).pack()
+Spinbox(root, from_=1980, to=2020, textvariable=year).pack()
 
 # Syntax
 # <textvariable>.get() - returns the current value of the spinbox
