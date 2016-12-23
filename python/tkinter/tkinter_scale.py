@@ -22,4 +22,8 @@ progressbar.pack()
 scale = ttk.Scale(root, orient=HORIZONTAL, length=400, variable=value, from_=0.0, to=11.0)
 scale.pack()
 
+# Other useful syntax
+# scale.set(<<value>>)
+# scale.get()
+
 root.mainloop()
