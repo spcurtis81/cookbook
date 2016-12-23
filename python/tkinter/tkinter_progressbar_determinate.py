@@ -14,5 +14,9 @@ progressbar = ttk.Progressbar(root, orient=HORIZONTAL, length=200) # Orient can 
 progressbar.config(mode='determinate', maximum=11.0, value=4.2)
 progressbar.pack()
 
+# Other useful syntax
+# progressbar.step() # Steps up the value by 1.0
+# progressbar.step(<<value>>) # Steps by the value by the double passed.
+
 
 root.mainloop()
